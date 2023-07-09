@@ -1,14 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import Navbar from "./components/layout/Navbar";
 
 function App() {
   return (
-    <div className="bg-purple-500">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <button className='btn'>Click</button>
-    </div>
+    <Router>
+      <div className="flex flex-col justify-between h-screen">
+        <Navbar />
+
+        <main>Content</main>
+      </div>
+    </Router>
   );
 }
 
