@@ -15,7 +15,7 @@ const { alert } = useContext(AlertContext);
           <svg
             fill='none'
             viewBox='0 0 24 24'
-            className='w-6 h-6 stroke-current mr-3'
+            className='w-6 h-6 stroke-current mr-3 float-left'
           >
             <path
               strokeLinecap='round'
